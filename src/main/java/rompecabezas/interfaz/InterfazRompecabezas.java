@@ -162,7 +162,9 @@ public class InterfazRompecabezas extends JFrame
     {
 
         Properties propiedadesFigura = new Properties( );
-        propiedadesFigura.load( new FileInputStream( new File( "./data/figuras.properties" ) ) );
+		try (archivoImagen = new FileInputStream( new File( "./data/figuras.properties" ) )) {
+			propiedadesFigura.load( archivoImagen );
+		}
         String strNum = propiedadesFigura.getProperty( "total.figuras" );
 
         int numFiguras = Integer.parseInt( strNum );
@@ -171,7 +173,9 @@ public class InterfazRompecabezas extends JFrame
         {
             Properties propiedadesFichas = new Properties( );
             String nombreArchivo = ARCHIVO_FIGURA + ( i + 1 ) + PROPIEDAD_EXTENSION_ARCHIVO;
-            propiedadesFichas.load( new FileInputStream( new File( nombreArchivo ) ) );
+			try (archivo = new FileInputStream(new File(nombreArchivo))) {
+				propiedadesFichas.load( archivo );
+			}
 
             String nombre = propiedadesFichas.getProperty( "figura.nombre" );
             String dificultad = propiedadesFichas.getProperty( "figura.dificultad" );

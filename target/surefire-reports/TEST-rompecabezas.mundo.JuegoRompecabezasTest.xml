@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="rompecabezas.mundo.JuegoRompecabezasTest" time="0.003" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\datos\rompecabezas2\target\test-classes;C:\datos\rompecabezas2\target\classes;C:\Users\Casit\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Casit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Casit\AppData\Local\Temp\surefire11863753156119060313\surefirebooter148581058307676196.jar C:\Users\Casit\AppData\Local\Temp\surefire11863753156119060313 2024-03-05T14-25-58_226-jvmRun1 surefire15156386807619216851tmp surefire_07353497524341324005tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\datos\rompecabezas2\target\test-classes;C:\datos\rompecabezas2\target\classes;C:\Users\Casit\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Casit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Casit"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\datos\rompecabezas2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Casit\AppData\Local\Temp\surefire11863753156119060313\surefirebooter148581058307676196.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+9"/>
+    <property name="user.name" value="Casit"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\Casit\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Casit\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="C:\datos\rompecabezas2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Casit\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Casit\AppData\Local\Programs\Python\Python312\;C:\Program Files\Eclipse Adoptium\jdk-17.0.8.7-hotspot\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Software\apache-jmeter-5.2.1\bin;C:\Software\php;C:\Software\Apache24;C:\Software\Apache24\bin;C:\ProgramData\ComposerSetup\bin;C:\Software\mariadb\bin;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Software\apache-maven-3.9.4\bin;C:\Program Files\nodejs\;C:\Users\Casit\AppData\Local\Microsoft\WindowsApps;C:\Users\Casit\AppData\Roaming\Composer\vendor\bin;C:\Users\Casit\.dotnet\tools;C:\Users\Casit\AppData\Local\Yarn\bin;C:\Users\Casit\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Casit\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.10+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testJuego" classname="rompecabezas.mundo.JuegoRompecabezasTest" time="0"/>
+  <testcase name="testOrdenarPorCategoria" classname="rompecabezas.mundo.JuegoRompecabezasTest" time="0"/>
+  <testcase name="testOrdenarPornombre" classname="rompecabezas.mundo.JuegoRompecabezasTest" time="0"/>
+  <testcase name="testTerminarJuego" classname="rompecabezas.mundo.JuegoRompecabezasTest" time="0"/>
+  <testcase name="testIniciarJuego" classname="rompecabezas.mundo.JuegoRompecabezasTest" time="0"/>
+  <testcase name="testAgregarFigura1" classname="rompecabezas.mundo.JuegoRompecabezasTest" time="0"/>
+  <testcase name="testAgregarFigura2" classname="rompecabezas.mundo.JuegoRompecabezasTest" time="0"/>
+  <testcase name="testOrdenarPorDificultad" classname="rompecabezas.mundo.JuegoRompecabezasTest" time="0"/>
+</testsuite>
